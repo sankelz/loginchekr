@@ -6,7 +6,7 @@ def qualifications (x):
         dict_login = {"username": "password"}
         dict_login["username"] = x
         dict_login["password"] = y
-        return (dict_login)
+        return dict_login
     else:
         print ("please make sure your username has over 7 characters.")
 print(qualifications(x))
